@@ -1,108 +1,281 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="robots" content="noindex">
-<title>AeroBMSCE</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="Explore AeroBMSCE's aerospace projects, student teams and milestones.">
+  <title>Our Achievements | AeroBMSCE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="notice">
+    Recruitment task recreation — not the official AeroBMSCE website.
+  </div>
 
-<div class="notice">Practice website for the AeroBMSCE web development recruitment task. This is not the official AeroBMSCE website.</div>
+  <header class="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html" aria-label="AeroBMSCE home">
+        <img src="images/header-logo.png" alt="AeroBMSCE logo">
+      </a>
 
-<div class="top">
-  <div class="wrap">
-    <img src="images/header-logo.png">
-    <div class="nav">
-      <a href="index.html">Home</a>
-      <a href="#">Journey</a>
-      <a href="partners.html">Partners</a>
+      <button class="menu-toggle" type="button"
+        aria-expanded="false" aria-controls="site-nav">
+        Menu ☰
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="index.html#who">Who We Are</a>
+        <a href="index.html#build">What We Build</a>
+        <a href="journey.html" aria-current="page">Achievements</a>
+        <a href="partners.html">Partner With Us</a>
+      </nav>
     </div>
-    <div class="clear"></div>
-  </div>
-</div>
+  </header>
 
-<div class="wrap">
+  <main>
+    <section class="inner-hero">
+      <div class="wrap inner-hero-content">
+        <p class="eyebrow">AEROBMSCE / OUR JOURNEY</p>
+        <h1>BUILT THROUGH<br><span>EVERY CHALLENGE.</span></h1>
+        <p>
+          Every prototype teaches us something. Every competition
+          pushes us further. This is our journey from an idea
+          to engineering in flight.
+        </p>
+        <a class="button button-primary" href="#milestones">
+          Explore the timeline <span aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </section>
 
-  <div class="slide-box">
-    <img id="slide" src="images/photo1.jpg">
-  </div>
+    <section class="section wrap">
+      <div class="section-label">
+        <span>01 / OUR IMPACT</span>
+        <span>IDEAS INTO ENGINEERING</span>
+      </div>
 
-  <h1 class="sec">OUR JOURNEY &amp; IMPACT</h1>
-  <ul>
-    <li>Team Yaksha - International Competitions</li>
-    <li>Team Blue Impulse - Aeromodelling</li>
-    <li>TeamFlying Phantoms - Drone Development</li>
-    <li>Team Vectors - Drone Racing</li>
-  </ul>
-  <p>Since we have started, we’ve taken on and successfully completed 75 + projects, collaborating with students from more than 10 departments across the college. Along the way, we’ve produced 50+ research papers, reports, and certifications that highlight the creativity and dedication of our members. Our competitive spirit shines through our teams that represent us at various prestigious events:</p>
+      <div class="stats journey-stats">
+        <article class="stat">
+          <span class="stat-number">75+</span>
+          <span class="stat-label">Projects and initiatives</span>
+        </article>
+        <article class="stat">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Research papers, reports and certifications</span>
+        </article>
+        <article class="stat">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Podium finishes*</span>
+        </article>
+        <article class="stat">
+          <span class="stat-number">10+</span>
+          <span class="stat-label">Departments working together</span>
+        </article>
+      </div>
+      <p class="footnote">
+        *Figures are based on the supplied recruitment-task website.
+      </p>
+    </section>
 
-  <p class="credit">Credibility Summary<br>16+ years | 75+ projects | 20+ podium finishes | International flight history</p>
+    <section class="journey-projects">
+      <div class="wrap section">
+        <div class="section-label">
+          <span>02 / OUR TEAMS</span>
+          <span>COLLABORATION IN MOTION</span>
+        </div>
 
-  <div class="clear"></div>
+        <div class="section-heading">
+          <h2>DIFFERENT TEAMS.<br><span>ONE SKY.</span></h2>
+          <p>
+            Students collaborate across disciplines to explore
+            aircraft design, flight systems and new ideas.
+          </p>
+        </div>
 
-  <div class="gallery">
-    <img src="images/photo5.jpg">
-    <img src="images/photo6.jpg">
-    <img src="images/photo7.jpg">
-  </div>
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-image">
+              <img src="images/photo5.jpg" alt="AeroBMSCE engineering project" loading="lazy">
+              <span>TEAM / 01</span>
+            </div>
+            <div class="team-copy">
+              <h3>Yaksha</h3>
+              <p>
+                A team name featured in AeroBMSCE's project journey.
+              </p>
+            </div>
+          </article>
 
-  <h1 class="sec">Our Milestones</h1>
+          <article class="team-card">
+            <div class="team-image">
+              <img src="images/photo6.jpg" alt="Aerospace prototype and team project" loading="lazy">
+              <span>TEAM / 02</span>
+            </div>
+            <div class="team-copy">
+              <h3>Blue Impulse</h3>
+              <p>
+                Engineering collaboration driven by a passion for flight.
+              </p>
+            </div>
+          </article>
 
-  <div class="ms">
-    2026 SEASON<br>
-    <b>SAE International Aero Design West</b><br>
-    <b>2nd Place Internationally under MATLAB Simulation Awards.</b> Overall #16 Globally in Micro Class Category<br>
-    <b>Fort Worth, Texas, USA</b><br><br>
-    SAE Aerothon<br>
-    <b>1st Place under Unique Technology development at ADDC 2026.</b><br><br>
+          <article class="team-card">
+            <div class="team-image">
+              <img src="images/photo7.jpg" alt="Aircraft development project" loading="lazy">
+              <span>TEAM / 03</span>
+            </div>
+            <div class="team-copy">
+              <h3>Flying Phantoms</h3>
+              <p>
+                A team featured in the club's aerospace journey.
+              </p>
+            </div>
+          </article>
 
-    2025 SEASON<br>
-    SAE Aerothon<br>
-    <b>2nd place overall, ₹1,25,000 cash prize</b> (Nov 2025)<br><br>
-    SAE-Drone Design Challenge<br>
-    <b>1st place - Best Technical Presentation, ₹10,000 cash prize</b> (May 2025)<br><br>
-    SAE Autonomous Drone Design Challenge<br>
-    <b>1st place - Best Innovation ₹5000 cash prize</b> (April 2025)<br><br>
+          <article class="team-card">
+            <div class="team-image">
+              <img src="images/photo8.jpg" alt="AeroBMSCE project showcase" loading="lazy">
+              <span>TEAM / 04</span>
+            </div>
+            <div class="team-copy">
+              <h3>Vectors</h3>
+              <p>
+                Students bringing engineering concepts closer to flight.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    2024 SEASON<br>
-    NITK Drone Racing Competition<br>
-    <b>2nd place</b> (Oct 18-20,2024)<br><br>
-    Global Academy of Technology (Drone Racing)<br>
-    <b>1st place</b> (Nov 2024)<br><br>
-    SAE International Aero Design West<br>
-    <b>12th place globally</b> (Aug 2024)<br><br>
+    <section class="section wrap" id="milestones">
+      <div class="section-label">
+        <span>03 / TIMELINE</span>
+        <span>PROGRESS, YEAR AFTER YEAR</span>
+      </div>
 
-    2022 SEASON<br>
-    SAE Aerothon<br>
-    <b>3rd place, ₹50,000 cash prize</b><br><br>
-    lll South India Exhibition<br>
-    <b>2nd place, ₹15000 cash prize</b><br>
-    Kalpataru Institute of Technology,Tiptur,Karnataka<br><br>
-    AI-VTOL (Techfest,IIT Bombay)<br>
-    <b>4th place nationally</b><br><br>
-    SAE International Aero Design West<br>
-    <b>9th Place (Design report), 11th Place (Technical Presentation) Globally</b><br><br>
+      <div class="section-heading">
+        <h2>THE JOURNEY<br><span>SO FAR.</span></h2>
+        <p>
+          Milestone years listed on the original site, presented
+          in a clearer timeline.
+        </p>
+      </div>
 
-    2020 SEASON<br>
-    SAE-India<br>
-    <b>1st place overall, ₹1,00,000 cash prize</b><br>
-    Team Blue Impulse won Nationally<br><br>
-    SAE Aero Design,West<br>
-    <b>8th place in design standings globally</b><br><br>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-year">2026</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Designing what's next</h3>
+            <p>
+              Continuing the pursuit of aerospace engineering,
+              experimentation and student innovation.
+            </p>
+          </div>
+        </article>
 
-    2018 SEASON<br>
-    SAE INDIA<br>
-    Anna University, Chennai<br>
-    <b>3rd place overall,</b><br>
-    <b>2nd place in Design Report</b><br><br>
-    AND MANY MORE...
-  </div>
+        <article class="timeline-item">
+          <span class="timeline-year">2025</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Learning through competition</h3>
+            <p>
+              Building experience through engineering projects
+              and collaborative problem-solving.
+            </p>
+          </div>
+        </article>
 
-  <div class="footer">&copy; AeroBMSCE</div>
+        <article class="timeline-item">
+          <span class="timeline-year">2024</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Research and development</h3>
+            <p>
+              Exploring ideas through research, simulation,
+              fabrication and testing.
+            </p>
+          </div>
+        </article>
 
-</div>
+        <article class="timeline-item">
+          <span class="timeline-year">2022</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Building forward</h3>
+            <p>
+              Continuing the team's work in aerospace design
+              and unmanned systems.
+            </p>
+          </div>
+        </article>
 
+        <article class="timeline-item">
+          <span class="timeline-year">2020</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Adapting and innovating</h3>
+            <p>
+              A milestone year in the timeline of the club's
+              ongoing engineering journey.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-year">2018</span>
+          <div class="timeline-content">
+            <span class="timeline-dot"></span>
+            <h3>Growing the journey</h3>
+            <p>
+              Advancing a shared interest in aircraft,
+              aeromodelling and engineering.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <p class="footnote">
+        The supplied website lists these years but does not provide
+        detailed descriptions for every individual milestone.
+      </p>
+    </section>
+
+    <section class="journey-cta">
+      <div class="wrap journey-cta-inner">
+        <div>
+          <p class="eyebrow">THE NEXT CHAPTER</p>
+          <h2>HELP US BUILD<br><span>WHAT'S NEXT.</span></h2>
+          <p>Great engineering grows through great partnerships.</p>
+        </div>
+        <a class="button button-primary" href="partners.html">
+          Partner with us <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>© AeroBMSCE</span>
+      <span>ABOVE GRAVITY. BEYOND LIMITS.</span>
+      <a href="partners.html">Get in touch ↗</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuButton = document.querySelector(".menu-toggle");
+    const navigation = document.querySelector("#site-nav");
+
+    menuButton.addEventListener("click", () => {
+      const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+      menuButton.setAttribute("aria-expanded", String(!isOpen));
+      navigation.classList.toggle("nav-open", !isOpen);
+    });
+  </script>
 </body>
 </html>
